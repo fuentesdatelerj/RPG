@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap'); /* Fonte desenhada, meio malandra */
+
+body {
+  font-size: 18px; /* Aumenta o tamanho base da fonte */
+  background-color: #0b1a2a; /* Azul bem escuro, quase couro */
+  color: #b0c4de; /* Azul clarinho pra contraste suave */
+  font-family: 'Mr Bedfort', cursive;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+main {
+  background-color: rgba(10, 15, 25, 0.85); /* Fundo escuro translúcido */
+  border: 2px solid #15375a; /* Azul escuro */
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 0 15px #143a60;
+}
+
+h1, h2 {
+  font-size: 3rem; /* Título maior */
+  color: #7da7d9; /* Azul acinzentado, elegante */
+  text-shadow: 1px 1px 3px #000814;
+  font-weight: normal;
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+}
+
+p {
+  font-size: 1.2rem; /* Texto do parágrafo maior */
+  color: #a9bcd0;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border: 2px solid #2c4663;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #122b44;
+}
