@@ -1,46 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 
 body {
-  background-color: #1a0000; /* Fundo quase preto, com tom de sangue seco */
-  color: #f2e6e6; /* Tom pálido, como pele de vampira */
-  font-family: 'MedievalSharp', cursive;
+  background-color: #1b1a16;
+  color: #e7d8c1;
+  font-family: 'Cardo', serif;
   font-size: 18px;
   padding: 20px;
   min-height: 100vh;
 }
 
 main {
-  background-color: rgba(40, 0, 0, 0.7); /* Vermelho escuro com transparência */
-  border: 2px solid #660000;
-  border-radius: 10px;
+  background-color: rgba(28, 24, 20, 0.9); /* tom de couro escuro */
+  border: 2px solid #4f4434;
+  border-radius: 12px;
   padding: 20px;
   max-width: 800px;
   margin: auto;
-  box-shadow: 0 0 20px #990000;
+  box-shadow: 0 0 20px rgba(10, 8, 6, 0.9);
 }
 
 h1, h2 {
-  color: #ff1a1a; /* Vermelho sangue */
+  color: #d2b48c;
   text-shadow:
     1px 1px 0 #000,
     -1px -1px 0 #000,
-    2px 2px 4px #330000;
-  letter-spacing: 2px;
+    2px 2px 3px #0a0a0a;
+  letter-spacing: 1px;
+  font-weight: normal;
   text-transform: uppercase;
 }
 
 p {
-  color: #ffe6e6;
+  color: #f1e9db;
   line-height: 1.6;
   margin-bottom: 10px;
-  font-size: 1.2rem;
 }
 
 img {
   display: block;
   margin: 20px auto;
   max-width: 100%;
-  border: 2px solid #990000;
-  border-radius: 8px;
-  box-shadow: 0 0 15px #660000;
+  border: 2px solid #3c2f23;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #0a0604;
 }
