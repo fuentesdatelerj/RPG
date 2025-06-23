@@ -1,45 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 body {
   font-size: 18px;
-  background-color: #0a0010;
-  color: #eaeaea;
-  font-family: 'Rubik', sans-serif;
+  background-color: #0a0f1a;
+  color: #d3e0f0;
+  font-family: 'MedievalSharp', cursive;
   padding: 20px;
   min-height: 100vh;
-  background-image: radial-gradient(circle at top right, #2e003e 0%, #000 100%);
+  background-image: linear-gradient(#0a0f1a, #1a1f2f);
 }
 
 main {
-  background-color: rgba(30, 0, 50, 0.85);
-  border: 2px solid #9000c0;
+  background-color: rgba(15, 20, 35, 0.95);
+  border: 2px solid #29415d;
   border-radius: 12px;
   padding: 25px;
   max-width: 900px;
   margin: auto;
-  box-shadow: 0 0 30px #7900a8;
+  box-shadow: 0 0 25px #1c314d;
 }
 
 h1 {
-  font-size: 3rem;
-  color: #b300b3;
-  text-shadow: 2px 2px 8px #000, 0 0 12px #7e00ff;
+  font-size: 2.8rem;
+  color: #87bfff;
+  text-shadow: 1px 1px 5px #000;
   text-align: center;
   margin-bottom: 30px;
-  font-family: 'Creepster', cursive;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 2rem;
-  color: #ff3ccc;
-  text-shadow: 1px 1px 4px #000;
+  font-size: 1.9rem;
+  color: #66aaff;
+  text-shadow: 1px 1px 3px #000;
   margin-top: 30px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 p {
   font-size: 1.1rem;
-  color: #e0e0e0;
+  color: #cbd9ef;
   line-height: 1.6;
   margin-bottom: 12px;
   text-align: justify;
@@ -49,92 +49,91 @@ img {
   display: block;
   margin: 20px auto;
   max-width: 100%;
-  border: 2px solid #7e00ff;
+  border: 2px solid #29415d;
   border-radius: 8px;
-  box-shadow: 0 0 18px #8b00d1;
+  box-shadow: 0 0 10px #112233;
 }
 
-/* SPANS ESPECIAIS */
+/* SPANS ESTILIZADOS */
 
 .ouro {
   color: gold;
-  font-weight: bold;
-  text-shadow: 0 0 5px #ffee00;
+  font-weight: 700;
+  text-shadow: 0 0 5px #ffd700;
   background-color: rgba(255, 215, 0, 0.1);
   padding: 3px 8px;
   border-radius: 4px;
 }
 
 .habilidade-ativa {
-  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
-  color: #00ffaa;
-  background-color: rgba(0, 255, 170, 0.1);
+  color: #66ccff;
+  font-weight: 700;
+  background-color: rgba(0, 60, 100, 0.2);
   padding: 2px 6px;
-  margin-left: 10px;
+  margin-left: 12px;
   border-radius: 4px;
-  text-shadow: 0 0 4px #00ffcc;
-  font-weight: bold;
+  text-shadow: 0 0 3px #002c4d;
+  letter-spacing: 1px;
+  display: inline-block;
 }
 
 .habilidade-passiva {
-  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
-  color: #ff66ff;
-  background-color: rgba(255, 102, 255, 0.1);
+  color: #6699ff;
+  font-weight: 700;
+  background-color: rgba(0, 40, 100, 0.2);
   padding: 2px 6px;
-  margin-left: 10px;
+  margin-left: 12px;
   border-radius: 4px;
-  text-shadow: 0 0 4px #cc00cc;
-  font-weight: bold;
+  text-shadow: 0 0 3px #001b33;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.passo-silencioso {
+  color: #00ccff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px #005577;
+}
+
+.golpe-baixo {
+  color: #88aaff;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 0 0 4px #445577;
+}
+
+.fugir-e-viver {
+  color: #b0e0ff;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 0 0 3px #224466;
 }
 
 .efeito {
-  color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.05);
+  color: #dcecff;
+  background-color: rgba(20, 60, 90, 0.2);
   padding: 6px 10px;
-  border-left: 4px solid #00ffcc;
+  border-left: 3px solid #66ccff;
   display: inline-block;
   border-radius: 4px;
 }
 
 .custo {
-  color: #ffd9d9;
-  background-color: rgba(120, 0, 120, 0.2);
+  color: #bddaff;
+  background-color: rgba(10, 40, 70, 0.2);
   padding: 6px 10px;
-  border-left: 4px solid #ff33cc;
+  border-left: 3px solid #4477aa;
   display: inline-block;
   border-radius: 4px;
 }
 
-/* NOMES DE HABILIDADES */
-
-.risada-profana {
-  color: #ff33cc;
-  font-family: 'Creepster', cursive;
-  text-shadow: 0 0 6px #ff66cc;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.amor-de-facas {
-  color: #ff4444;
-  font-family: 'Creepster', cursive;
-  text-shadow: 0 0 6px #ff0000;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.da-minha-mente {
-  color: #00ffcc;
-  font-family: 'Creepster', cursive;
-  text-shadow: 0 0 6px #00cccc;
-  font-size: 2rem;
-  font-weight: bold;
-}
+/* Extras */
 
 section {
   margin-bottom: 30px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #440044;
+  border-bottom: 1px solid #1a2a3a;
 }
