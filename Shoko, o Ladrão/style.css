@@ -1,45 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap'); /* Fonte desenhada, meio malandra */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Rubik&display=swap');
 
 body {
-  font-size: 18px; /* Aumenta o tamanho base da fonte */
-  background-color: #0b1a2a; /* Azul bem escuro, quase couro */
-  color: #b0c4de; /* Azul clarinho pra contraste suave */
-  font-family: 'Mr Bedfort', cursive;
+  font-size: 18px;
+  background-color: #0a0010;
+  color: #eaeaea;
+  font-family: 'Rubik', sans-serif;
   padding: 20px;
   min-height: 100vh;
+  background-image: radial-gradient(circle at top right, #2e003e 0%, #000 100%);
 }
 
 main {
-  background-color: rgba(10, 15, 25, 0.85); /* Fundo escuro translúcido */
-  border: 2px solid #15375a; /* Azul escuro */
+  background-color: rgba(30, 0, 50, 0.85);
+  border: 2px solid #9000c0;
   border-radius: 12px;
   padding: 25px;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
-  box-shadow: 0 0 15px #143a60;
+  box-shadow: 0 0 30px #7900a8;
 }
 
-h1, h2 {
-  font-size: 3rem; /* Título maior */
-  color: #7da7d9; /* Azul acinzentado, elegante */
-  text-shadow: 1px 1px 3px #000814;
-  font-weight: normal;
-  text-transform: capitalize;
-  letter-spacing: 1.2px;
+h1 {
+  font-size: 3rem;
+  color: #b300b3;
+  text-shadow: 2px 2px 8px #000, 0 0 12px #7e00ff;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Creepster', cursive;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ff3ccc;
+  text-shadow: 1px 1px 4px #000;
+  margin-top: 30px;
+  font-weight: bold;
 }
 
 p {
-  font-size: 1.2rem; /* Texto do parágrafo maior */
-  color: #a9bcd0;
-  line-height: 1.7;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  line-height: 1.6;
   margin-bottom: 12px;
+  text-align: justify;
 }
 
 img {
   display: block;
   margin: 20px auto;
   max-width: 100%;
-  border: 2px solid #2c4663;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #122b44;
+  border: 2px solid #7e00ff;
+  border-radius: 8px;
+  box-shadow: 0 0 18px #8b00d1;
+}
+
+/* SPANS ESPECIAIS */
+
+.ouro {
+  color: gold;
+  font-weight: bold;
+  text-shadow: 0 0 5px #ffee00;
+  background-color: rgba(255, 215, 0, 0.1);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.habilidade-ativa {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  color: #00ffaa;
+  background-color: rgba(0, 255, 170, 0.1);
+  padding: 2px 6px;
+  margin-left: 10px;
+  border-radius: 4px;
+  text-shadow: 0 0 4px #00ffcc;
+  font-weight: bold;
+}
+
+.habilidade-passiva {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  color: #ff66ff;
+  background-color: rgba(255, 102, 255, 0.1);
+  padding: 2px 6px;
+  margin-left: 10px;
+  border-radius: 4px;
+  text-shadow: 0 0 4px #cc00cc;
+  font-weight: bold;
+}
+
+.efeito {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 6px 10px;
+  border-left: 4px solid #00ffcc;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.custo {
+  color: #ffd9d9;
+  background-color: rgba(120, 0, 120, 0.2);
+  padding: 6px 10px;
+  border-left: 4px solid #ff33cc;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+/* NOMES DE HABILIDADES */
+
+.risada-profana {
+  color: #ff33cc;
+  font-family: 'Creepster', cursive;
+  text-shadow: 0 0 6px #ff66cc;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.amor-de-facas {
+  color: #ff4444;
+  font-family: 'Creepster', cursive;
+  text-shadow: 0 0 6px #ff0000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.da-minha-mente {
+  color: #00ffcc;
+  font-family: 'Creepster', cursive;
+  text-shadow: 0 0 6px #00cccc;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #440044;
 }

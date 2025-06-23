@@ -1,46 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+/* Fonte da Google que dá essa vibe natural e legível */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body {
-  background-color: #1b1a16;
-  color: #e7d8c1;
-  font-family: 'Cardo', serif;
-  font-size: 18px;
+  background: linear-gradient(135deg, #2c3e21, #4e6e34); /* Verde floresta escuro pra claro */
+  color: #eae3d2; /* Bege claro, lembra areia, madeira seca */
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
   padding: 20px;
-  min-height: 100vh;
 }
 
 main {
-  background-color: rgba(28, 24, 20, 0.9); /* tom de couro escuro */
-  border: 2px solid #4f4434;
-  border-radius: 12px;
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
-  box-shadow: 0 0 20px rgba(10, 8, 6, 0.9);
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: rgba(44, 62, 33, 0.9); /* Fundo escuro meio esverdeado, translúcido */
+  border-radius: 15px;
+  padding: 25px 30px;
+  box-shadow: 0 0 15px #2f4f2f;
 }
 
-h1, h2 {
-  color: #d2b48c;
-  text-shadow:
-    1px 1px 0 #000,
-    -1px -1px 0 #000,
-    2px 2px 3px #0a0a0a;
-  letter-spacing: 1px;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-
-p {
-  color: #f1e9db;
-  line-height: 1.6;
-  margin-bottom: 10px;
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #d1c299; /* Dourado amarelado, tipo luz do sol entre as folhas */
+  text-shadow: 1px 1px 3px #1b2a12;
 }
 
 img {
   display: block;
-  margin: 20px auto;
+  margin: 0 auto 30px auto;
+  border-radius: 12px;
+  border: 3px solid #556b2f; /* Verde musgo */
+  box-shadow: 0 0 12px #4e6e34;
   max-width: 100%;
-  border: 2px solid #3c2f23;
-  border-radius: 10px;
-  box-shadow: 0 0 15px #0a0604;
+  height: auto;
+}
+
+section {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #556b2f;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  color: #9dbd6e; /* Verde mais claro, tipo folha nova */
+  text-shadow: 0 0 5px #2f4f2f;
+}
+
+p[contenteditable="true"] {
+  background: rgba(70, 90, 40, 0.3);
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1.5px solid #7a9454;
+  transition: background 0.3s ease, border-color 0.3s ease;
+  cursor: text;
+}
+
+p[contenteditable="true"]:focus {
+  background: #a4be7b;
+  border-color: #556b2f;
+  outline: none;
+  color: #2f4f2f;
+  font-weight: 600;
+}
+
+.ouro {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #d7c459; /* Ouro meio fosco, natural */
+  text-shadow: 1px 1px 3px #4b4a1f;
+}
+
+.habilidades h2 {
+  margin-top: 25px;
+  border-left: 6px solid #7a9454;
+  padding-left: 12px;
+  color: #bdd58f;
+  font-size: 1.8rem;
+}
+
+.habilidade-ativa {
+  font-size: 1rem;
+  color: #c7d9aa;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.efeito {
+  color: #c3d6a5;
+  font-weight: 500;
+}
+
+.custo {
+  color: #a3b075;
+  font-style: italic;
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+  color: #b0bb8a;
+  font-size: 0.9rem;
+  display: block;
+  margin-top: 20px;
+  border-top: 1px solid #7a9454;
+  padding-top: 10px;
+}
+
+/* Scrollbar customizada, verde natural */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #7a9454;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #2c3e21;
 }

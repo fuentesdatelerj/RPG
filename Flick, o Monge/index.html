@@ -3,34 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Ficha do Ladrão</title>
+  <title>Ficha do Monge</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
-    <h1>Shoko, O Ladrão</h1>
+    <h1>Flick Twick, o Monge</h1>
 
-    <img src="C:\Users\CLIENTE\Desktop\Testes de programação\RPG\Shoko, o Ladrão\Shokoretrato.jpg" width="400" alt="Retrato de Shoko">
+    <img src="Flickretrato.jpg" width="400" alt="Retrato de Flick, o Monge">
 
     <section>
       <h2>Informações básicas</h2>
-      <p contenteditable="true">Nome do personagem: Shoko, o Ladrão</p>
-      <p contenteditable="true">Classe: Ladrão</p>
-      <p contenteditable="true">Raça: Halfling</p>
+      <p contenteditable="true">Nome do personagem: Flick, o Monge</p>
+      <p contenteditable="true">Classe: Monge</p>
+      <p contenteditable="true">Raça: Elfo</p>
     </section>
 
     <section>
       <h2>Status</h2>
-      <p contenteditable="true">Vida: 40/40</p>
-      <p contenteditable="true">Energia: 20/20</p>
-      <p contenteditable="true">Sanidade: 70/70</p>
+      <p contenteditable="true">Vida: 99/120</p>
+      <p contenteditable="true">Teor etílico 15/15</p>
     </section>
 
     <section>
       <h2>Inventário</h2>
-      <p contenteditable="true">Besouro morto</p>
-      <p contenteditable="true">Pata de coelho</p>
-      <p contenteditable="true">Punhado de lama</p>
+      <p contenteditable="true">Cabo de vassoura quebrado</p>
+      <p contenteditable="true">Soco inglês (equipado)</p>
+      <p contenteditable="true">Garrafa de hidromel</p>
+      <div class="ouro">
+        <p contenteditable="true"><span class="ouro">Ouro: 7</span></p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="habilidades">Habilidades</h2>
+
+      <h2><span class="corpo-blindado">Corpo Blindado</span> <span class="habilidade-ativa">(Habilidade Ativa)</span></h2>
+      <p>O monge estala o pescoço e simplesmente se firma como uma estátua bêbada. Os olhos semicerrados. O corpo relaxado. Mas há algo de impenetrável em sua postura. O mundo pode desabar ao redor e ele só vai balançar com o impacto.</p>
+      <p><span class="efeito">Efeito: O monge permanece imóvel por 1 turno e recebe apenas metade do dano físico durante esse tempo. Não pode atacar ou se mover até o próximo turno.</span></p>
+      <p><span class="custo">Custo da Habilidade: 3 + 1d4 pontos de Teor Etílico.</span></p>
+
+      <h2><span class="redemoinho-de-saque">Redemoinho de Saquê</span> <span class="habilidade-ativa">(Habilidade Ativa)</span></h2>
+      <p>Girando como um bêbado em festa, o monge transforma seus passos cambaleantes em pura destruição. O cheiro de álcool no ar é forte o suficiente pra embriagar os sentidos dos inimigos próximos. Cada giro ( 1d4 ) traz uma nova pancada, um novo tropeço mortal.</p>
+      <p><span class="efeito">Efeito: Realiza um ataque contra todos os inimigos em alcance corpo a corpo. Cada ataque causa 1d8 de dano e tem chance (1d4=4) de deixar o alvo tonto por 1 rodada.</span></p>
+      <p><span class="custo">Custo da Habilidade: 5 + 1d4 pontos de Teor Etílico .</span></p>
+
+     <h2><span class="soco-tempo">Ataque que Dobra o Tempo</span> <span class="habilidade-ativa">(Habilidade Ativa)</span></h2>
+     <p>O monge finge tropeçar, gira o corpo sem equilíbrio, e num surto de sincronia improvável acerta um ataque que parece atravessar não só a carne, mas a própria linha do tempo. O inimigo sente a dor... duas vezes.</p>
+     <p><span class="efeito">Efeito: O ataque causa dano duplo.</span></p>
+     <p><span class="custo">Custo da Habilidade: 4 + 1d4 pontos de Teor Etílico.</span></p>
+
+    <p><em>Recuperação de Teor Etílico:<br>
+Ao beber uma bebida alcoólica (ação livre ou bônus), role 1d6 + 1d7. O resultado é adicionado ao Teor Etílico.<br>
+Se o valor ultrapassar 15, o excedente é ignorado e o monge fica Tonto, perdendo a próxima reação.</em></p>
+
     </section>
   </main>
 </body>

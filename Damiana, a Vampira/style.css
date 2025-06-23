@@ -1,46 +1,151 @@
-@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap');
 
 body {
-  background-color: #1b1a16;
-  color: #e7d8c1;
-  font-family: 'Cardo', serif;
-  font-size: 18px;
+  font-size: 18px; 
+  background-color: #0b0b0b; 
+  color: #dcdcdc; 
+  font-family: 'Crimson Pro', serif;
   padding: 20px;
   min-height: 100vh;
+  background-image: linear-gradient(#0b0b0b, #1a0a0a);
 }
 
 main {
-  background-color: rgba(28, 24, 20, 0.9); /* tom de couro escuro */
-  border: 2px solid #4f4434;
+  background-color: rgba(20, 10, 10, 0.9); 
+  border: 2px solid #5c0000;
   border-radius: 12px;
-  padding: 20px;
-  max-width: 800px;
+  padding: 25px;
+  max-width: 900px;
   margin: auto;
-  box-shadow: 0 0 20px rgba(10, 8, 6, 0.9);
+  box-shadow: 0 0 25px #5c0000;
 }
 
-h1, h2 {
-  color: #d2b48c;
-  text-shadow:
-    1px 1px 0 #000,
-    -1px -1px 0 #000,
-    2px 2px 3px #0a0a0a;
-  letter-spacing: 1px;
-  font-weight: normal;
-  text-transform: uppercase;
+h1 {
+  font-size: 3rem; 
+  color: #b30000; 
+  text-shadow: 2px 2px 5px #000;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ff4d4d;
+  text-shadow: 1px 1px 2px #000;
+  margin-top: 30px;
+  font-weight: 700;
 }
 
 p {
-  color: #f1e9db;
+  font-size: 1.1rem;
+  color: #e0e0e0;
   line-height: 1.6;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  text-align: justify;
+  font-weight: 400;
 }
 
+/* Imagem do personagem */
 img {
   display: block;
   margin: 20px auto;
   max-width: 100%;
-  border: 2px solid #3c2f23;
-  border-radius: 10px;
-  box-shadow: 0 0 15px #0a0604;
+  border: 2px solid #5c0000;
+  border-radius: 8px;
+  box-shadow: 0 0 12px #330000;
+}
+
+/* CLASSES DE SPAN — estilo por contexto */
+
+.ouro {
+  color: gold;
+  font-weight: 700;
+  text-shadow: 0 0 5px #ffdd00;
+  background-color: rgba(255, 215, 0, 0.1);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-family: 'Crimson Pro', serif;
+}
+
+.habilidade-ativa {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1rem;
+  color: #ff3333;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgba(100, 0, 0, 0.2);
+  padding: 2px 6px;
+  margin-left: 12px;
+  border-radius: 4px;
+  text-shadow: 0 0 3px #800000;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.habilidade-passiva {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1rem;
+  color: #990099;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgba(60, 0, 60, 0.2);
+  padding: 2px 6px;
+  margin-left: 12px;
+  border-radius: 4px;
+  text-shadow: 0 0 3px #330033;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.beijo-profano {
+  color: #cc0000;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px #660000;
+  font-family: 'Crimson Pro', serif;
+}
+
+.nevoa-de-asas-negras {
+  color: #7f7fff;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 0 0 6px #2e2e66;
+  font-family: 'Crimson Pro', serif;
+}
+
+.elegancia-espectral {
+  color: #ccccff;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 0 0 4px #9999cc;
+  font-family: 'Crimson Pro', serif;
+}
+
+.efeito {
+  color: #ffdddd;
+  background-color: rgba(100, 0, 0, 0.2);
+  padding: 6px 10px;
+  border-left: 3px solid #ff4d4d;
+  display: inline-block;
+  border-radius: 4px;
+  font-family: 'Crimson Pro', serif;
+}
+
+.custo {
+  color: #ffd9d9;
+  background-color: rgba(60, 0, 0, 0.2);
+  padding: 6px 10px;
+  border-left: 3px solid #a80000;
+  display: inline-block;
+  border-radius: 4px;
+  font-family: 'Crimson Pro', serif;
+}
+
+/* Separação entre seções */
+section {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #2e0000;
 }
