@@ -1,122 +1,65 @@
-/* Fonte da Google que dá essa vibe natural e legível */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
 body {
-  background: linear-gradient(135deg, #2c3e21, #4e6e34); /* Verde floresta escuro pra claro */
-  color: #eae3d2; /* Bege claro, lembra areia, madeira seca */
-  font-family: 'Roboto Slab', serif;
+  background: #3b2f2f; /* marrom escuro */
+  background-image: url('https://www.transparenttextures.com/patterns/dark-leather.png'); /* textura de couro */
+  color: #f5e6ca;
+  font-family: 'Georgia', serif;
   margin: 0;
-  padding: 20px;
+  padding: 0;
 }
 
-main {
-  max-width: 700px;
-  margin: 0 auto;
-  background-color: rgba(44, 62, 33, 0.9); /* Fundo escuro meio esverdeado, translúcido */
-  border-radius: 15px;
-  padding: 25px 30px;
-  box-shadow: 0 0 15px #2f4f2f;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 25px;
-  color: #d1c299; /* Dourado amarelado, tipo luz do sol entre as folhas */
-  text-shadow: 1px 1px 3px #1b2a12;
-}
-
-img {
-  display: block;
-  margin: 0 auto 30px auto;
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: rgba(50, 35, 25, 0.95);
+  border: 2px solid #2a1f1f;
   border-radius: 12px;
-  border: 3px solid #556b2f; /* Verde musgo */
-  box-shadow: 0 0 12px #4e6e34;
-  max-width: 100%;
-  height: auto;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
-section {
-  margin-bottom: 30px;
-  border-bottom: 1px solid #556b2f;
-  padding-bottom: 15px;
+h1, h2, h3 {
+  text-align: center;
+  text-shadow: 2px 2px #1c1410;
+  margin-bottom: 10px;
+  color: #f0e0c0;
 }
 
-h2 {
-  font-size: 2rem;
-  margin-bottom: 12px;
-  color: #9dbd6e; /* Verde mais claro, tipo folha nova */
-  text-shadow: 0 0 5px #2f4f2f;
+p, li, span {
+  color: #e8d5b5;
+  line-height: 1.6;
 }
 
-p[contenteditable="true"] {
-  background: rgba(70, 90, 40, 0.3);
-  padding: 6px 10px;
+button {
+  background: #5a3e2b;
+  color: #f0e0c0;
+  border: 1px solid #3c2a1f;
+  padding: 8px 15px;
   border-radius: 6px;
-  border: 1.5px solid #7a9454;
-  transition: background 0.3s ease, border-color 0.3s ease;
-  cursor: text;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'Georgia', serif;
 }
 
-p[contenteditable="true"]:focus {
-  background: #a4be7b;
-  border-color: #556b2f;
-  outline: none;
-  color: #2f4f2f;
-  font-weight: 600;
+button:hover {
+  background: #7a543b;
+  transform: scale(1.05);
 }
 
-.ouro {
-  font-weight: bold;
-  font-size: 1.3rem;
-  color: #d7c459; /* Ouro meio fosco, natural */
-  text-shadow: 1px 1px 3px #4b4a1f;
-}
-
-.habilidades h2 {
-  margin-top: 25px;
-  border-left: 6px solid #7a9454;
-  padding-left: 12px;
-  color: #bdd58f;
-  font-size: 1.8rem;
-}
-
-.habilidade-ativa {
-  font-size: 1rem;
-  color: #c7d9aa;
-  font-style: italic;
-  margin-left: 10px;
-}
-
-.efeito {
-  color: #c3d6a5;
-  font-weight: 500;
-}
-
-.custo {
-  color: #a3b075;
-  font-style: italic;
-  font-weight: 600;
-}
-
-em {
-  font-style: italic;
-  color: #b0bb8a;
-  font-size: 0.9rem;
-  display: block;
-  margin-top: 20px;
-  border-top: 1px solid #7a9454;
-  padding-top: 10px;
-}
-
-/* Scrollbar customizada, verde natural */
-::-webkit-scrollbar {
-  width: 9px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #7a9454;
+input, textarea {
+  background: #2a1d16;
+  color: #f5e6ca;
+  border: 1px solid #4b3a2f;
   border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  font-family: 'Georgia', serif;
 }
-::-webkit-scrollbar-track {
-  background: #2c3e21;
+
+a {
+  color: #cba96b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
