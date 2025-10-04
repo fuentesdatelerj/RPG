@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0010;
+  color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
+
+.personagens {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.personagem {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #2e003e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.personagem:hover {
+  background-color: #5a007d;
+}
